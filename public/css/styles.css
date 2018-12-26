@@ -208,11 +208,11 @@ section.page a:visited {
 }
 
 section div pre {
+  background: #000;
   overflow: auto;
 }
 
-section code {
-  background-color: #e8e8e8;
+section code {  
   font-size: 16px;
   color:rgb(29, 118, 219);
 }

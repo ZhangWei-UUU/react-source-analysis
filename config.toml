@@ -3,14 +3,14 @@ baseURL = "/"
     contentDir = "content/"
     weight = 2
     languageCode = "cn-zh"
-    title = "iOS Human Interface Guidelines"
+    title = "React 源码分析"
     theme = "kraiklyn"
     pygmentsCodeFences = true
     pygmentsStyle = "monokailight" 
 
 [params]
 
-    sidebarColor = "grey"
+    sidebarColor = "red"
     customCss = []
 
 
