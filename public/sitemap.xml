@@ -3,29 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/system-capabilities/multitasking/</loc>
+    <loc>/core/__index/</loc>
     <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ios/themes/</loc>
-    <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ios/essentials/</loc>
-    <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/app-architecture/accessibility/</loc>
-    <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/app-architecture/</loc>
-    <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -34,25 +13,19 @@
   </url>
   
   <url>
-    <loc>/ios/</loc>
+    <loc>/core/</loc>
     <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/system-capabilities/</loc>
-    <lastmod>2018-01-28T21:48:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2018-01-28T21:48:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

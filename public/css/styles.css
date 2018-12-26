@@ -73,7 +73,7 @@ html, body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 19rem;
+    width: 14rem;
     text-align: left;
   }
 }
@@ -211,7 +211,7 @@ section div pre {
   overflow: auto;
 }
 
-section code {  
+section code {
   font-size: 16px;
   color:rgb(29, 118, 219);
 }
