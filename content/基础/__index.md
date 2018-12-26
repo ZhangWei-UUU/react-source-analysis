@@ -27,9 +27,9 @@ There are a few other top-level folders but they are mostly used for the tooling
 
 ### Colocated Tests
 
-We don’t have a top-level directory for unit tests. Instead, we put them into a directory called __tests__ relative to the files that they test.
+We don’t have a top-level directory for unit tests. Instead, we put them into a directory called `__tests__` relative to the files that they test.
 
-For example, a test for setInnerHTML.js is located in __tests__/setInnerHTML-test.js right next to it.
+For example, a test for setInnerHTML.js is located in `__tests__`/setInnerHTML-test.js right next to it.
 
 ### Warnings and Invariants
 
