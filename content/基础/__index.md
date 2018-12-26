@@ -90,3 +90,8 @@ For standalone builds, it becomes true in the unminified build, and gets complet
 if (__DEV__) {
 }
 ```
+
+### Flow
+We recently started introducing Flow checks to the codebase. Files marked with the @flow annotation in the license header comment are being typechecked.
+
+We accept pull requests adding Flow annotations to existing code. Flow annotations look like this:
