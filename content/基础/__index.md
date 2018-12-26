@@ -88,6 +88,5 @@ For standalone builds, it becomes true in the unminified build, and gets complet
 
 ```js
 if (__DEV__) {
-  // This code will only run in development.
 }
 ```
