@@ -82,7 +82,7 @@ It is important to keep development and production behavior similar, so invarian
 ### Development and Production
 You can use `__DEV__` pseudo-global variable in the codebase to guard development-only blocks of code.
 
-It is inlined during the compile step, and turns into process.env.NODE_ENV !== 'production' checks in the CommonJS builds.
+It is inlined during the compile step, and turns into `process.env.NODE_ENV !== 'production'` checks in the CommonJS builds.
 
 For standalone builds, it becomes true in the unminified build, and gets completely stripped out with the if blocks it guards in the minified build.
 
@@ -92,6 +92,7 @@ if (__DEV__) {
 ```
 
 ### Flow
+
 We recently started introducing Flow checks to the codebase. Files marked with the @flow annotation in the license header comment are being typechecked.
 
 We accept pull requests adding Flow annotations to existing code. Flow annotations look like this:
