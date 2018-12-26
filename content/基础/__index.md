@@ -15,9 +15,9 @@ The fbjs repository exists because React shares some small utilities with librar
 
 After cloning the React repository, you will see a few top-level folders in it:
 
-* packages contains metadata (such as package.json) and the source code (src subdirectory) for all packages in the React repository. If your change is related to the code, the src subdirectory of each package is where you’ll spend most of your time.
+* [packages]() contains metadata (such as package.json) and the source code (src subdirectory) for all packages in the React repository. If your change is related to the code, the src subdirectory of each package is where you’ll spend most of your time.
 
-* fixtures contains a few small React test applications for contributors.
+* [fixtures](https://github.com/facebook/react/blob/master/fixtures/art/VectorWidget.js) contains a few small React test applications for contributors.
 
 * build is the build output of React. It is not in the repository but it will appear in your React clone after you build it for the first time.
 
