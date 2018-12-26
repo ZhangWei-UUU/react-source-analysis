@@ -43,3 +43,51 @@ warning(
   'Math is not working today.'
 );
 ```
+The warning is shown when the warning condition is false.
+
+One way to think about it is that the condition should reflect the normal situation rather than the exceptional one.
+
+It is a good idea to avoid spamming the console with duplicate warnings:
+
+```js
+var warning = require('warning');
+
+var didWarnAboutMath = false;
+if (!didWarnAboutMath) {
+  warning(
+    2 + 2 === 4,
+    'Math is not working today.'
+  );
+  didWarnAboutMath = true;
+}
+
+```
+Warnings are only enabled in development. In production, they are completely stripped out. If you need to forbid some code path from executing, use invariant module instead:
+
+```js
+var invariant = require('invariant');
+
+invariant(
+  2 + 2 === 4,
+  'You shall not pass!'
+);
+```
+
+The invariant is thrown when the invariant condition is false.
+
+“Invariant” is just a way of saying “this condition always holds true”. You can think about it as making an assertion.
+
+It is important to keep development and production behavior similar, so invariant throws both in development and in production. The error messages are automatically replaced with error codes in production to avoid negatively affecting the byte size.
+
+### Development and Production
+You can use __DEV__ pseudo-global variable in the codebase to guard development-only blocks of code.
+
+It is inlined during the compile step, and turns into process.env.NODE_ENV !== 'production' checks in the CommonJS builds.
+
+For standalone builds, it becomes true in the unminified build, and gets completely stripped out with the if blocks it guards in the minified build.
+
+```js
+if (__DEV__) {
+  // This code will only run in development.
+}
+```
