@@ -80,7 +80,7 @@ The invariant is thrown when the invariant condition is false.
 It is important to keep development and production behavior similar, so invariant throws both in development and in production. The error messages are automatically replaced with error codes in production to avoid negatively affecting the byte size.
 
 ### Development and Production
-You can use __DEV__ pseudo-global variable in the codebase to guard development-only blocks of code.
+You can use `__DEV__` pseudo-global variable in the codebase to guard development-only blocks of code.
 
 It is inlined during the compile step, and turns into process.env.NODE_ENV !== 'production' checks in the CommonJS builds.
 
