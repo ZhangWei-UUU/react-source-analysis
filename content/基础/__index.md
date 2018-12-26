@@ -9,13 +9,13 @@ weight: 1
 
 React has almost no external dependencies. Usually, a require() points to a file in React’s own codebase. However, there are a few relatively rare exceptions.
 
-The fbjs repository exists because React shares some small utilities with libraries like Relay, and we keep them in sync. We don’t depend on equivalent small modules in the Node ecosystem because we want Facebook engineers to be able to make changes to them whenever necessary. None of the utilities inside fbjs are considered to be public API, and they are only intended for use by Facebook projects such as React.
+The [fbjs repository]("#") exists because React shares some small utilities with libraries like Relay, and we keep them in sync. We don’t depend on equivalent small modules in the Node ecosystem because we want Facebook engineers to be able to make changes to them whenever necessary. None of the utilities inside fbjs are considered to be public API, and they are only intended for use by Facebook projects such as React.
 
 ### Top-Level Folders
 
 After cloning the React repository, you will see a few top-level folders in it:
 
-* [packages]() contains metadata (such as package.json) and the source code (src subdirectory) for all packages in the React repository. If your change is related to the code, the src subdirectory of each package is where you’ll spend most of your time.
+* [packages]("#") contains metadata (such as package.json) and the source code (src subdirectory) for all packages in the React repository. If your change is related to the code, the src subdirectory of each package is where you’ll spend most of your time.
 
 * [fixtures](https://github.com/facebook/react/blob/master/fixtures/art/VectorWidget.js) contains a few small React test applications for contributors.
 
