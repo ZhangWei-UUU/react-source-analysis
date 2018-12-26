@@ -1,0 +1,19 @@
+baseURL = "/"
+    languageName = "Chinese"
+    contentDir = "content/"
+    weight = 2
+    languageCode = "cn-zh"
+    title = "iOS Human Interface Guidelines"
+    theme = "kraiklyn"
+    pygmentsCodeFences = true
+    pygmentsStyle = "monokailight" 
+
+[params]
+
+    sidebarColor = "grey"
+    customCss = []
+
+
+
+
+
